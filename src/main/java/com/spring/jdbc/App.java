@@ -3,6 +3,7 @@ package com.spring.jdbc;
 import com.spring.jdbc.dao.StudentDao;
 import com.spring.jdbc.entity.Student;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;
@@ -12,8 +13,10 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Program Started..." );
-        ApplicationContext context = new ClassPathXmlApplicationContext("jdbcconfig.xml");
+//        ApplicationContext context = new ClassPathXmlApplicationContext("jdbcconfig.xml");
+        ApplicationContext context= new AnnotationConfigApplicationContext(jdbcConfig.class);
         StudentDao studentDao  = context.getBean("studentDao", StudentDao.class);
+
         Student student = new Student();
 //        Doing Insertion Operation
 

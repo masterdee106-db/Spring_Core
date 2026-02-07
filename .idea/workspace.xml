@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb728f4a-5c6b-4c34-a645-ced741821235" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/dao/RowMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/dao/StudentDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbcconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spring/jdbc/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/jdbcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
